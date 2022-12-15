@@ -1,0 +1,74 @@
+/* import {Link} from 'react-router-dom'; */
+/* @media (min-width: 500px) { */
+.loginc {
+  border-radius: 7px;
+  justify-content: center;
+  background-color: var(--t-color);
+  max-width: 300px;
+  padding: 20px;
+  padding-top: 15px;
+  overflow: auto;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+
+#login {
+  max-height: 190px;
+}
+
+#register {
+  max-height: 320px;
+}
+
+#home {
+  /* min-width: 650px; */
+  max-width: 650px;
+  max-height: 500px;
+  /* height: 100%; */
+}
+
+input {
+  /* width: 90%; */
+  color: var(--p-color);
+  border: 0px;
+  border-radius: 5px;
+  min-width: 290px;
+  /* max-width: 95%; */
+  min-height: 35px;
+  font-size: 20px;
+  display: block;
+  margin-top: 10px;
+  margin-right: 0px;
+}
+
+#loginb {
+  width: 298px;
+  text-align: center;
+  margin: 0px;
+  margin-top: 10px;
+  border-radius: 7px;
+  color: var(--s-color);
+  background-color: var(--p-color);
+}
+
+#warning {
+  font-size: 12px;
+  margin: 0px;
+}
+
+#message {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px;
+}
+/* } */
+/* @media (min-width: 500px) {
+  #home {
+    max-width: 300px;
+  }
+} */

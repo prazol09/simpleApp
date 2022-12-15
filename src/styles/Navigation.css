@@ -1,0 +1,132 @@
+div#menu {
+  margin: auto;
+  /* padding: auto; */
+  /* max-height: 70px; */
+  min-height: 50px;
+  min-width: 100%;
+  /* background-color: #322445; */
+  /* border-radius: 7px; */
+  /* z-index: 1; */
+  position: absolute;
+  bottom: 0px;
+}
+
+#title {
+  display: none;
+}
+
+#icon {
+  /* border-radius: 10px 0px 0px 10px; */
+  display: inline;
+  min-height: 50px;
+  max-width: 50px;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0);
+  font-size: 50px;
+  /* margin-top: 7px; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#label {
+  display: none;
+  /* width: 0px; */
+  /* height: 0px; */
+}
+#nLabel {
+  display: none;
+}
+.hIcon {
+  background-image: url('../../public/icons/home.svg');
+}
+.lIcon {
+  background-image: url('../../public/icons/login.svg');
+}
+.rIcon {
+  background-image: url('../../public/icons/register.svg');
+}
+.fIcon {
+  background-image: url('../../public/icons/fullscreen.svg');
+}
+.loIcon {
+  background-image: url('../../public/icons/logout.svg');
+}
+.L {
+  /* background-color: beige; */
+  /* margin: 10px; */
+  min-height: 50px;
+  min-width: 50px;
+  /* display: inline; */
+}
+
+button {
+  color: var(--p-color);
+  border: none;
+  font-size: 18px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  display: inline;
+
+  min-width: 200px;
+  min-height: 50px;
+  padding: 6px 8px;
+  display: block;
+  margin: 20px;
+  font-weight: bold;
+  text-align: left;
+  /* border-radius: 0px 10px 10px 0px; */
+}
+
+.L {
+  text-decoration: none;
+  color: var(--p-color);
+}
+
+button:active {
+  background-color: var(--t-color);
+}
+
+@media (min-width: 500px) {
+  div#menu {
+    position: relative;
+    /* border: 0.1px solid green; */
+    margin-top: auto;
+    margin-left: 0px;
+    /* margin-bottom: 10px; */
+    background-color: #ffffff;
+  }
+  #title {
+    display: block;
+    max-width: 250px;
+  }
+
+  div#menu {
+    width: 19%;
+    float: left;
+  }
+  #label {
+    display: block;
+    width: 80%;
+    text-align: left;
+  }
+  #icon {
+    font-size: 0px;
+    /* opacity: 0%; */
+    display: inline;
+    width: 20%;
+    min-height: 50px;
+  }
+  #nLabel {
+    display: inline;
+    margin: 0px;
+    min-width: 180px;
+  }
+  .L {
+    margin-bottom: 7px;
+    display: flex;
+    column-count: 2;
+    margin-left: 10px;
+  }
+  .hIcon {
+    display: inline;
+  }
+}

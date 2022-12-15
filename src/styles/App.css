@@ -1,0 +1,50 @@
+:root {
+  /* Palette */
+  --s-color: #ffffff;
+  --p-color: #42413d;
+  --t-color: #e3e0e0;
+  /* App Theme */
+}
+
+/* to center everything in the top-center of the window */
+div#page {
+  /* border: 0.4px solid purple; */
+  max-width: 1275px;
+  margin: 0 auto;
+  /* margin: 0px; */
+  padding-left: 0px;
+  padding-top: 0px;
+  text-align: left;
+  /* min-height: 700px; */
+  height: 100%;
+  /* position: relative; */
+}
+div {
+  text-align: center;
+}
+
+div#content {
+  /* border: 0.1px solid blue; */
+  /* max-width: 80%; */
+  /* margin: auto; */
+  margin-top: 0px;
+  /* min-height: 570px; */
+
+  /* position: relative; */
+}
+
+.B {
+  color: var(--p-color);
+}
+
+@media (min-width: 500px) {
+  div#content {
+    /* border: 0.1px solid blue; */
+    max-width: 80%;
+    /* margin: auto; */
+    margin-left: auto;
+    min-height: 570px;
+
+    position: relative;
+  }
+}
